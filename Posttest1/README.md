@@ -24,6 +24,7 @@ jumlah dari pemburu, monster, area saat ini
 * static method, digunakan untuk pengecekan apakah suatu pemburu sudah cukup level untuk mengakses suatu area atau apakah suatu monster terlalu kuat untuk pemburu.
 
 **Encapsulation**
+
 Program ini juga sudah menggunakan konsep encapsulation dimana sudah terdapat atribut yang bersifat
 public seperti nama pemburu dan bersifat private seperti level pemburu, sehingga getter dan setter
 juga sudah di manfaatkan untuk mengakses atribut private secara bijak
