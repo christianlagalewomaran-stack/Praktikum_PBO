@@ -28,6 +28,8 @@ jumlah dari pemburu, monster, area saat ini
 Program ini juga sudah menggunakan konsep encapsulation dimana sudah terdapat atribut yang bersifat
 public seperti nama pemburu dan bersifat private seperti level pemburu, sehingga getter dan setter
 juga sudah di manfaatkan untuk mengakses atribut private secara bijak
+
 ---
+
 Pada bagian akhir program juga sudah terdapat demonstrasi program dan pengujian apakah validasi
 pada setter bekerja dengan baik.
