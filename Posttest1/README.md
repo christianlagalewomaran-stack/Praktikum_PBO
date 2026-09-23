@@ -5,7 +5,7 @@ Program ini sendiri sebenarnya dapat difungsikan sebagai sebuah fitur atau siste
 ataupun sebuah website mandiri untuk media hiburan simulasi mengatur persiapan monster hunting.
 
 ## DETAIL PROGRAM
-** Program untuk sementara masih terdiri dari 3 Class, antara lain: **
+**Program untuk sementara masih terdiri dari 3 Class, antara lain:**
 * Class Hunter
 Berisi Cetakan/Template dasar untuk objek pemburu monster yang akan memburu para monster
 * Class Monster
@@ -13,7 +13,7 @@ Berisi Cetakan/Template dasar untuk objek para Monster yang akan diburu pemburu
 * Class HuntingArea
 berisi Cetakan/Template dasar untuk objek area yang akan menjadi tempat para pemburu memburu monster
 
-** Program ini juga sudah menggunakan ketiga jenis method yang ada di modul **
+**Program ini juga sudah menggunakan ketiga jenis method yang ada di modul**
 * Instance method, pada program ini dimanfaatkan untuk memperlihatkan data dari objek yang kita buat.
 Dengan memanfaatkan kelebihan method ini yang dapat mengakses atribut dari objek sehingga kita bisa
 melihat baik data pemburu, monster, atau area dengan detail
