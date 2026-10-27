@@ -34,5 +34,12 @@ Program menerapkan Open/Closed Principle (OCP) secara sederhana melalui polimorf
 
 ## Bukti Output Program
 
-Berikut adalah cuplikan output program untuk menunjukkan hasil pengujian.
-
+Berikut adalah bagian kode pembuktian abstraksi beserta output program untuk pembuktian abstraksi.
+```python
+print("\nBUKTI ABSTRACT CLASS")
+    try:
+        Hunter("Hunter Abstrak", 1)
+    except TypeError as error:
+        print("Hunter tidak dapat diinstansiasi:", error)
+```
+![Output Bukti Abstraksi](BuktiAbstraksi.png)
