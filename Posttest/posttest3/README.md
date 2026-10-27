@@ -45,3 +45,6 @@ print("\nBUKTI ABSTRACT CLASS")
 ![Output Bukti Abstraksi](BuktiAbstraksi.png)
 
 Berikut adalah Output dari Program OOP ini.
+![Output1_Program](Output1_monsterHunt_OOP.png)
+![Output2_Program](Output2_monsterHunt_OOP.png)
+![Output3_Program](Output3_monsterHunt_OOP.png)
