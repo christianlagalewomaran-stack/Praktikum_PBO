@@ -8,11 +8,11 @@ Program ini adalah program python sederhana yang mana akan menerapkan konsep Obj
 
 ### Penjelasan Relasi Antarclass
 
-1. **Asosiasi — Hunter dengan HuntingArea:** Hunter dapat menggunakan objek HuntingArea ketika berburu. Hunter dan area berburu dapat dibuat serta digunakan secara terpisah, dan satu area dapat digunakan oleh beberapa Hunter.
+1. **Asosiasi —> Hunter dengan HuntingArea:** Hunter dapat menggunakan objek HuntingArea ketika berburu. Hunter dan area berburu dapat dibuat serta digunakan secara terpisah, dan satu area dapat digunakan oleh beberapa Hunter.
 
-2. **Agregasi — Hunter dengan Equipment:** Hunter menyimpan equipment yang dibuat secara terpisah. Equipment tetap dapat digunakan meskipun Hunter yang sebelumnya memilikinya dihapus, selama objek equipment tersebut masih memiliki referensi. Karena equipment tidak bergantung pada keberadaan Hunter, relasi ini dimodelkan sebagai agregasi. Simbol berlian kosong berada di sisi Hunter.
+2. **Agregasi —> Hunter dengan Equipment:** Hunter menyimpan equipment yang dibuat secara terpisah. Equipment tetap dapat digunakan meskipun Hunter yang sebelumnya memilikinya dihapus, selama objek equipment tersebut masih memiliki referensi. Karena equipment tidak bergantung pada keberadaan Hunter, relasi ini dimodelkan sebagai agregasi. Simbol berlian kosong berada di sisi Hunter.
 
-3. **Komposisi — HuntingArea dengan Monster:** Ketika objek HuntingArea dibuat, program secara otomatis membuat objek Monster dan menyimpannya sebagai bagian dari area tersebut. Pada rancangan program ini, area berperan sebagai keseluruhan yang mengelola monster. Karena itu, relasi ini dimodelkan sebagai komposisi dengan simbol berlian terisi di sisi HuntingArea.
+3. **Komposisi —> HuntingArea dengan Monster:** Ketika objek HuntingArea dibuat, program secara otomatis membuat objek Monster dan menyimpannya sebagai bagian dari area tersebut. Pada rancangan program ini, area berperan sebagai keseluruhan yang mengelola monster. Karena itu, relasi ini dimodelkan sebagai komposisi dengan simbol berlian terisi di sisi HuntingArea.
 
 ## Abstraksi
 
@@ -43,3 +43,5 @@ print("\nBUKTI ABSTRACT CLASS")
         print("Hunter tidak dapat diinstansiasi:", error)
 ```
 ![Output Bukti Abstraksi](BuktiAbstraksi.png)
+
+Berikut adalah Output dari Program OOP ini.
